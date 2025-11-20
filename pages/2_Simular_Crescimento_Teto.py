@@ -4,6 +4,8 @@ from calculos import teto_crescimento
 
 st.title("Simulador de crescimento com um valor limite")
 
+st.info("**Atenção :** Ao utilizar o sistema no celular, clique na seta (>>) no canto superior esquerdo para alterar os dados da simulação!")
+
 st.sidebar.header("Configurações")
 unidade = st.sidebar.selectbox("Unidade de Tempo", ["Ano", "Mês", "Semana", "Dia"])
 
